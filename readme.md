@@ -26,17 +26,17 @@ numeri da indovinare sono stati individuati.
 ## Scaletta
 
 1. Prendo gli elementi dal dom
-1. metto in ascolto il bottone
-1. creo un variabile che inserisca dentro un array vuoto dei numeri randomici da
+1. Metto in ascolto il bottone
+1. Creo un variabile che inserisca dentro un array vuoto dei numeri randomici da
    1 a 10
-1. creo un timer di 30 secondi
+1. Creo un timer di 30 secondi
 1. **SE** scaduti i 30 secondi
 
-- applico la classe a i numeri per farli scomparire
-- fermo il timer
+- Applico la classe a i numeri per farli scomparire
+- Fermo il timer
 
-7. creo un prompt che chiede all'utente che numeri ha scelto
-1. creo un ciclo per i prompt
+7. Creo un prompt che chiede all'utente che numeri ha scelto
+1. Creo un ciclo per i prompt
 1. **SE NON** la risposta dell'utente equivale a i numeri inseriti nell'array
 
 - HA PERSO
