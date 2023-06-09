@@ -73,11 +73,11 @@ button.addEventListener(`click` , function(){
                 console.log(arrayRight + "arrayRight")
                 // controllo vincitore
                 if(arrayRight.length === randomArr.length){
-                    message = `HAI VINTO, il tuo punteggio è: ${arrayRight.length},numeri:${arrayRight}`;
+                    message = `"HAI VINTO" il tuo punteggio è : ${arrayRight.length} - Numeri: ${arrayRight}`;
                 }else if(arrayRight.length === 0){
-                    message = `HAI PERSO.`
+                    message = `"HAI PERSO".`
                 }else{
-                    message = `CI SEI QUASI, il tuo punteggio è;${arrayRight.length} ,numeri:${arrayRight}`
+                    message = `"CI SEI QUASI" il tuo punteggio è : ${arrayRight.length} - Numeri: ${arrayRight}`
                 }
                 console.log(userArr + `userArr`)
             };
