@@ -26,10 +26,9 @@ numeri da indovinare sono stati individuati.
 ## Scaletta
 
 1. Prendo gli elementi dal dom
-1. creo una funzione per i numeri randomici
 1. metto in ascolto il bottone
-1. creo un array vuoto
-1. inserisco i numeri randomici nel array
+1. creo un variabile che inserisca dentro un array vuoto dei numeri randomici da
+   1 a 10
 1. creo un timer di 30 secondi
 1. **SE** scaduti i 30 secondi
 
