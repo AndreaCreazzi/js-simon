@@ -75,9 +75,9 @@ button.addEventListener(`click` , function(){
                 if(arrayRight.length === randomArr.length){
                     message = `"HAI VINTO" il tuo punteggio è : ${arrayRight.length} - Numeri: ${arrayRight}`;
                 }else if(arrayRight.length === 0){
-                    message = `"HAI PERSO".`
+                    message = `"HAI PERSO" il tuo punteggio è : ${arrayRight.length}`;
                 }else{
-                    message = `"CI SEI QUASI" il tuo punteggio è : ${arrayRight.length} - Numeri: ${arrayRight}`
+                    message = `"CI SEI QUASI" il tuo punteggio è : ${arrayRight.length} - Numeri: ${arrayRight}`;
                 }
                 console.log(userArr + `userArr`)
             };
